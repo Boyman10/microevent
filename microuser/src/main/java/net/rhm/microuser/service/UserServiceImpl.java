@@ -4,8 +4,10 @@ import net.rhm.microuser.config.Sender;
 import net.rhm.microuser.entity.User;
 import net.rhm.microuser.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
-public class UserServiceImpl {
+@Component
+public class UserServiceImpl implements UserService {
 
     @Value("${spring.kafka.topic.userCreated}")
     private static String USER_CREATED_TOPIC;
@@ -18,5 +20,10 @@ public class UserServiceImpl {
         User createdUser = userRepository.save(input);
         sender.send(USER_CREATED_TOPIC, createdUser);
         return createdUser;
+    }
+
+    @Override
+    public Iterable<User> findAll() {
+        return userRepository.findAll();
     }
 }
