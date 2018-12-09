@@ -6,4 +6,4 @@ spring:
           uri: https://github.com/Boyman10/test-config
           search-paths:
             - "microevents/{application}/{profile}"
-            - "master/microevents/{application}/{profile}"
+            - "microevents/global/{profile}"
