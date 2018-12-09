@@ -3,6 +3,7 @@ package net.rhm.microuser.service;
 import net.rhm.microuser.config.Sender;
 import net.rhm.microuser.entity.User;
 import net.rhm.microuser.repository.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -14,6 +15,12 @@ public class UserServiceImpl implements UserService {
 
     private UserRepository userRepository;
     private Sender sender;
+
+    @Autowired
+    UserServiceImpl(UserRepository userRepository, Sender sender) {
+        this.userRepository = userRepository;
+        this.sender = sender;
+    }
 
     @Override
     public User registerUser(User input) {
