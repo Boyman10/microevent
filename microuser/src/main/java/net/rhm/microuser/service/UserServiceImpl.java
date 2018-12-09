@@ -15,7 +15,7 @@ public class UserServiceImpl implements UserService {
     private static final Logger LOGGER = LoggerFactory.getLogger(UserServiceImpl.class);
 
     @Value("${spring.kafka.topic.user-created}")
-    private static String USER_CREATED_TOPIC;
+    private static String USER_CREATED_TOPIC = "USER_CREATED_TOPIC";
 
     private UserRepository userRepository;
     private Sender sender;

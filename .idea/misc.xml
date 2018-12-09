@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/discovery/pom.xml" />
         <option value="$PROJECT_DIR$/microconfig/pom.xml" />
         <option value="$PROJECT_DIR$/microuser/pom.xml" />
+        <option value="$PROJECT_DIR$/microemail/pom.xml" />
       </list>
     </option>
   </component>

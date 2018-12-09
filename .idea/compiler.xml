@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="discovery" />
         <module name="microconfig" />
+        <module name="microemail" />
         <module name="microevent" />
         <module name="microuser" />
       </profile>
@@ -17,6 +18,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="discovery" options="-parameters" />
       <module name="microconfig" options="-parameters" />
+      <module name="microemail" options="-parameters" />
       <module name="microuser" options="-parameters" />
     </option>
   </component>

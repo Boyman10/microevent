@@ -1,6 +1,8 @@
 package net.rhm.microuser.config;
 
 import org.apache.kafka.common.serialization.StringSerializer;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.kafka.core.ProducerFactory;
 import org.springframework.kafka.support.serializer.JsonSerializer;
 import net.rhm.microuser.entity.User;
@@ -16,6 +18,7 @@ import java.util.Map;
 
 @Configuration
 public class SenderConfig {
+    private static final Logger LOGGER = LoggerFactory.getLogger(SenderConfig.class);
 
     @Value("${spring.kafka.bootstrap-servers}")
     private String bootstrapServers;
@@ -26,6 +29,8 @@ public class SenderConfig {
         props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServers);
         props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
         props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, JsonSerializer.class);
+
+        LOGGER.info("Configuration for Kafka : " + bootstrapServers);
 
         return props;
     }
