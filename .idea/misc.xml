@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/microconfig/pom.xml" />
         <option value="$PROJECT_DIR$/microuser/pom.xml" />
         <option value="$PROJECT_DIR$/microemail/pom.xml" />
+        <option value="$PROJECT_DIR$/microgate/pom.xml" />
       </list>
     </option>
   </component>

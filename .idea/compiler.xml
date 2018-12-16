@@ -10,6 +10,7 @@
         <module name="microconfig" />
         <module name="microemail" />
         <module name="microevent" />
+        <module name="microgate" />
         <module name="microuser" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="discovery" options="-parameters" />
       <module name="microconfig" options="-parameters" />
       <module name="microemail" options="-parameters" />
+      <module name="microgate" options="-parameters" />
       <module name="microuser" options="-parameters" />
     </option>
   </component>

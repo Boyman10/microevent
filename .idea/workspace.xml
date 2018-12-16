@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66fc0fbb-552c-4f68-90b1-a9f5fa3a9583" name="Default Changelist" comment="Done setting trusted_packages within factory - now on to to class name...">
+    <list default="true" id="66fc0fbb-552c-4f68-90b1-a9f5fa3a9583" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/config/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/config/Receiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/config/ReceiverConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/config/ReceiverConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microemail/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microemail/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -13,6 +13,7 @@
     <ignored path="$PROJECT_DIR$/microconfig/target/" />
     <ignored path="$PROJECT_DIR$/microuser/target/" />
     <ignored path="$PROJECT_DIR$/microemail/target/" />
+    <ignored path="$PROJECT_DIR$/microgate/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microemail/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -67,26 +68,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/config/SenderConfig.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microgate/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/MicrouserApplication.java">
+        <entry file="file://$PROJECT_DIR$/microgate/src/main/java/net/rhm/microgate/MicrogateApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -95,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/service/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/config/Receiver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="354">
-              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -189,6 +184,8 @@
         <option value="$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/config/Receiver.java" />
         <option value="$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/config/ReceiverConfig.java" />
         <option value="$PROJECT_DIR$/microemail/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/microgate/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/microgate/src/main/java/net/rhm/microgate/MicrogateApplication.java" />
       </list>
     </option>
   </component>
@@ -239,158 +236,45 @@
             <path>
               <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
               <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="microemail" type="462c0819:PsiDirectoryNode" />
+              <item name="microgate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
               <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="microemail" type="462c0819:PsiDirectoryNode" />
+              <item name="microgate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
               <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="microemail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="microemail" type="462c0819:PsiDirectoryNode" />
+              <item name="microgate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
               <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="microemail" type="462c0819:PsiDirectoryNode" />
+              <item name="microgate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="microemail" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
               <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="microemail" type="462c0819:PsiDirectoryNode" />
+              <item name="microgate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="microemail" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="microgate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
               <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="microemail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="microemail" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="microemail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="microemail" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="microemail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="microemail" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="microemail" type="462c0819:PsiDirectoryNode" />
+              <item name="microgate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="microuser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="microuser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="microuser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="microuser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="microuser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="microuser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="microuser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="microuser" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="microuser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="microuser" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="microuser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="microuser" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="microuser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -407,7 +291,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544980089869" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544980619446" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../test-config" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -433,7 +317,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MicroemailApplication">
+  <component name="RunManager" selected="Spring Boot.MicrogateApplication">
     <configuration name="DiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="discovery" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="net.rhm.discovery.DiscoveryApplication" />
@@ -455,6 +339,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MicrogateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microgate" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.rhm.microgate.MicrogateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MicrouserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microuser" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="net.rhm.microuser.MicrouserApplication" />
@@ -467,6 +358,7 @@
       <item itemvalue="Spring Boot.MicroconfigApplication" />
       <item itemvalue="Spring Boot.MicrouserApplication" />
       <item itemvalue="Spring Boot.MicroemailApplication" />
+      <item itemvalue="Spring Boot.MicrogateApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -490,7 +382,7 @@
       <workItem from="1544645267470" duration="4290000" />
       <workItem from="1544732221442" duration="3202000" />
       <workItem from="1544960679007" duration="1585000" />
-      <workItem from="1544963195480" duration="9819000" />
+      <workItem from="1544963195480" duration="10270000" />
     </task>
     <task id="LOCAL-00001" summary="done with config server - organizing config files depending on profiles also...">
       <created>1543870950097</created>
@@ -604,11 +496,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544978529342</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Fully working sender/receiver for ou app - sending email OK if correctly configured - Next : implement proto buffers instead of JSON !">
+      <created>1544980138439</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1544980138439</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43906000" />
+    <option name="totallyTimeSpent" value="44357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="406" y="25" width="1391" height="956" extended-state="0" />
@@ -670,7 +569,8 @@
     <MESSAGE value="Fully working application with kafka.. - now about to zuul!" />
     <MESSAGE value="Updating Group id - see if kafka crashes..." />
     <MESSAGE value="Done setting trusted_packages within factory - now on to to class name..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Done setting trusted_packages within factory - now on to to class name..." />
+    <MESSAGE value="Fully working sender/receiver for ou app - sending email OK if correctly configured - Next : implement proto buffers instead of JSON !" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fully working sender/receiver for ou app - sending email OK if correctly configured - Next : implement proto buffers instead of JSON !" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/discovery/src/main/java/net/rhm/discovery/DiscoveryApplication.java">
@@ -833,7 +733,7 @@
     <entry file="file://$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/config/SenderConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -853,7 +753,7 @@
     <entry file="file://$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/service/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -863,7 +763,7 @@
     <entry file="file://$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/config/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -920,6 +820,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microgate/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microgate/src/main/java/net/rhm/microgate/MicrogateApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microgate/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
         </state>
       </provider>
     </entry>
