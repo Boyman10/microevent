@@ -1,6 +1,5 @@
 package net.rhm.microemail.config;
 
-import net.rhm.microemail.dto.UserDto;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.beans.factory.annotation.Value;
@@ -10,7 +9,10 @@ import org.springframework.kafka.annotation.EnableKafka;
 import org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory;
 import org.springframework.kafka.core.ConsumerFactory;
 import org.springframework.kafka.core.DefaultKafkaConsumerFactory;
+import org.springframework.kafka.support.converter.StringJsonMessageConverter;
+import org.springframework.kafka.support.serializer.ErrorHandlingDeserializer;
 import org.springframework.kafka.support.serializer.JsonDeserializer;
+import net.rhm.microemail.entity.dto.UserDto;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -25,21 +27,28 @@ public class ReceiverConfig {
     @Value("${spring.kafka.consumer.group-id}")
     private String consumerGroupId;
 
+   /* @Value("${spring.kafka.consumer.properties.spring.json.trusted.packages}")
+    private String trustedPackages;
+*/
     @Bean
     public Map<String, Object> consumerConfigs() {
         Map<String, Object> props = new HashMap<>();
         props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServers);
         props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
         props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, JsonDeserializer.class);
-        props.put(ConsumerConfig.GROUP_ID_CONFIG, "microemail_consumer");
+        props.put(ConsumerConfig.GROUP_ID_CONFIG, consumerGroupId);
 
         return props;
     }
 
     @Bean
     public ConsumerFactory<String, UserDto> consumerFactory() {
-        return new DefaultKafkaConsumerFactory<>(consumerConfigs(), new StringDeserializer(),
-                new JsonDeserializer<>(UserDto.class));
+
+        StringDeserializer sd = new StringDeserializer();
+        JsonDeserializer<UserDto> js = new JsonDeserializer<>(UserDto.class);
+        js.addTrustedPackages("net.rhm.microuser.entity");
+
+        return new DefaultKafkaConsumerFactory<>(consumerConfigs(), sd, js);
     }
 
     @Bean
@@ -47,6 +56,7 @@ public class ReceiverConfig {
         ConcurrentKafkaListenerContainerFactory<String, UserDto> factory =
                 new ConcurrentKafkaListenerContainerFactory<>();
         factory.setConsumerFactory(consumerFactory());
+        factory.setMessageConverter(new StringJsonMessageConverter());
 
         return factory;
     }

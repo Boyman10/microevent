@@ -1,4 +1,4 @@
-package net.rhm.microemail.dto;
+package net.rhm.microemail.entity.dto;
 
 public class UserDto {
 

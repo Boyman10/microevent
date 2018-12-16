@@ -1,6 +1,6 @@
 package net.rhm.microemail.service;
 
-import net.rhm.microemail.dto.UserDto;
+import net.rhm.microemail.entity.dto.UserDto;
 import net.rhm.microemail.entity.Mail;
 import net.rhm.microemail.repository.MailRepository;
 import org.springframework.beans.factory.annotation.Autowired;

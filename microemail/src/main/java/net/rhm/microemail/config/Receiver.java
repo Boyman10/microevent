@@ -1,11 +1,14 @@
 package net.rhm.microemail.config;
 
-import net.rhm.microemail.dto.UserDto;
+import net.rhm.microemail.entity.dto.UserDto;
 import net.rhm.microemail.service.EmailService;
+import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.kafka.annotation.KafkaListener;
+import org.springframework.kafka.support.converter.StringJsonMessageConverter;
 
 import java.util.concurrent.CountDownLatch;
 
@@ -19,9 +22,14 @@ public class Receiver {
     private EmailService emailService;
 
     @KafkaListener(topics = "${spring.kafka.topic.userCreated}")
-    public void receive(UserDto payload) {
-        LOGGER.info("received payload='{}'", payload);
-        emailService.sendSimpleMessage(payload);
+    public void receive(ConsumerRecord<?, ?> consumerRecord) {
+        LOGGER.info("received payload='{}'", consumerRecord);
+        emailService.sendSimpleMessage((UserDto) consumerRecord.value());
         latch.countDown();
+    }
+
+    @Bean
+    public StringJsonMessageConverter jsonConverter() {
+        return new StringJsonMessageConverter();
     }
 }
