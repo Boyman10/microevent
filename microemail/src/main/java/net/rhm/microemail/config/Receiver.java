@@ -22,14 +22,11 @@ public class Receiver {
     private EmailService emailService;
 
     @KafkaListener(topics = "${spring.kafka.topic.userCreated}")
-    public void receive(ConsumerRecord<?, ?> consumerRecord) {
+    public void receive(UserDto consumerRecord) {
         LOGGER.info("received payload='{}'", consumerRecord);
-        emailService.sendSimpleMessage((UserDto) consumerRecord.value());
+        emailService.sendSimpleMessage((UserDto) consumerRecord);
         latch.countDown();
     }
 
-    @Bean
-    public StringJsonMessageConverter jsonConverter() {
-        return new StringJsonMessageConverter();
-    }
+
 }

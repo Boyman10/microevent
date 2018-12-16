@@ -45,7 +45,7 @@ public class ReceiverConfig {
     public ConsumerFactory<String, UserDto> consumerFactory() {
 
         StringDeserializer sd = new StringDeserializer();
-        JsonDeserializer<UserDto> js = new JsonDeserializer<>(UserDto.class);
+        JsonDeserializer<UserDto> js = new JsonDeserializer<>(UserDto.class, false);
         js.addTrustedPackages("net.rhm.microuser.entity");
 
         return new DefaultKafkaConsumerFactory<>(consumerConfigs(), sd, js);
@@ -56,7 +56,7 @@ public class ReceiverConfig {
         ConcurrentKafkaListenerContainerFactory<String, UserDto> factory =
                 new ConcurrentKafkaListenerContainerFactory<>();
         factory.setConsumerFactory(consumerFactory());
-        factory.setMessageConverter(new StringJsonMessageConverter());
+        //factory.setMessageConverter(new StringJsonMessageConverter());
 
         return factory;
     }
