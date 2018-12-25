@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66fc0fbb-552c-4f68-90b1-a9f5fa3a9583" name="Default Changelist" comment="Initializing zuul app for all our services referenced via eureka - testing on users">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microgate/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microgate/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microgate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microgate/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microgate/src/main/java/net/rhm/microgate/MicrogateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microgate/src/main/java/net/rhm/microgate/MicrogateApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,46 +37,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/config/ReceiverConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2188#2189#0" expanded="true" />
-                <element signature="e#2225#2226#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microemail/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/authserve/src/main/java/net/rhm/authserve/AuthserveApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/authserve/src/main/java/net/rhm/authserve/config/AuthorizationConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="578">
+              <caret line="52" column="63" selection-start-line="52" selection-start-column="63" selection-end-line="52" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1341#1342#0" expanded="true" />
-                <element signature="e#1405#1406#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,11 +66,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/microgate/src/main/java/net/rhm/microgate/MicrogateApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="221">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microgate/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,7 +104,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/config/Receiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="357">
               <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -117,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/repository/MailRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="102">
               <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -129,7 +128,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/service/EmailServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="306">
               <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -141,7 +140,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/MicroemailApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="102">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -191,9 +190,10 @@
         <option value="$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/config/Receiver.java" />
         <option value="$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/config/ReceiverConfig.java" />
         <option value="$PROJECT_DIR$/microemail/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/microgate/src/main/java/net/rhm/microgate/MicrogateApplication.java" />
         <option value="$PROJECT_DIR$/microgate/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/authserve/src/main/java/net/rhm/authserve/config/AuthorizationConfig.java" />
+        <option value="$PROJECT_DIR$/microgate/pom.xml" />
+        <option value="$PROJECT_DIR$/microgate/src/main/java/net/rhm/microgate/MicrogateApplication.java" />
       </list>
     </option>
   </component>
@@ -221,8 +221,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="234" />
-    <option name="y" value="28" />
+    <option name="x" value="437" />
+    <option name="y" value="36" />
     <option name="width" value="1391" />
     <option name="height" value="956" />
   </component>
@@ -234,6 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,62 +245,49 @@
             <path>
               <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
               <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="authserve" type="462c0819:PsiDirectoryNode" />
+              <item name="microgate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
               <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="authserve" type="462c0819:PsiDirectoryNode" />
+              <item name="microgate" type="462c0819:PsiDirectoryNode" />
+              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microevent" type="462c0819:PsiDirectoryNode" />
+              <item name="microgate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
               <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="authserve" type="462c0819:PsiDirectoryNode" />
+              <item name="microgate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
               <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="authserve" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="authserve" type="462c0819:PsiDirectoryNode" />
+              <item name="microgate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="authserve" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
               <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="authserve" type="462c0819:PsiDirectoryNode" />
+              <item name="microgate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="authserve" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="authserve" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="microgate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,7 +297,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544982472638" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545773655494" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../test-config" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -335,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MicrogateApplication">
+  <component name="RunManager" selected="Spring Boot.MicroemailApplication">
     <configuration name="AuthserveApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="authserve" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="net.rhm.authserve.AuthserveApplication" />
@@ -409,6 +397,8 @@
       <workItem from="1544732221442" duration="3202000" />
       <workItem from="1544960679007" duration="1585000" />
       <workItem from="1544963195480" duration="12031000" />
+      <workItem from="1545550726001" duration="1701000" />
+      <workItem from="1545771002225" duration="2496000" />
     </task>
     <task id="LOCAL-00001" summary="done with config server - organizing config files depending on profiles also...">
       <created>1543870950097</created>
@@ -547,10 +537,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46118000" />
+    <option name="totallyTimeSpent" value="50315000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="641" y="35" width="1391" height="956" extended-state="0" />
+    <frame x="437" y="36" width="1391" height="956" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2593985" />
@@ -695,18 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -805,13 +783,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microgate/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microgate/src/main/java/net/rhm/microgate/MicrogateApplication.java">
+    <entry file="file://$PROJECT_DIR$/microgate/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/config/ReceiverConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="731">
+          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microemail/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authserve/src/main/java/net/rhm/authserve/AuthserveApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authserve/src/main/java/net/rhm/authserve/config/AuthorizationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="52" column="63" selection-start-line="52" selection-start-column="63" selection-end-line="52" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -822,21 +825,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/config/ReceiverConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2188#2189#0" expanded="true" />
-            <element signature="e#2225#2226#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/config/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
+        <state relative-caret-position="357">
           <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -846,7 +837,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/repository/MailRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="102">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -856,7 +847,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/service/EmailServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="306">
           <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -866,7 +857,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/MicroemailApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="102">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -874,28 +865,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microemail/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authserve/src/main/java/net/rhm/authserve/AuthserveApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authserve/src/main/java/net/rhm/authserve/config/AuthorizationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="255">
+          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1341#1342#0" expanded="true" />
-            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microgate/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microgate/src/main/java/net/rhm/microgate/MicrogateApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
