@@ -10,7 +10,6 @@
         <option value="$PROJECT_DIR$/microuser/pom.xml" />
         <option value="$PROJECT_DIR$/microemail/pom.xml" />
         <option value="$PROJECT_DIR$/microgate/pom.xml" />
-        <option value="$PROJECT_DIR$/authserve/pom.xml" />
       </list>
     </option>
   </component>
