@@ -12,7 +12,7 @@ spring:
     host: ssl0.ovh.net
     port: 587
     username: contact@sample.com
-    password: @@@@@@
+    password: hhhhhh
     properties.mail.smtp:
       auth: true
       starttls.enable: true
