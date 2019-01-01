@@ -1,5 +1,6 @@
 package net.rhm.microuser.controller;
 
+import lombok.extern.slf4j.Slf4j;
 import net.rhm.microuser.entity.User;
 import net.rhm.microuser.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value = "/", produces = MediaType.APPLICATION_JSON_VALUE)
+@Slf4j
 public class UserController {
 
     private UserService userService;
@@ -26,6 +28,7 @@ public class UserController {
     @RequestMapping(method = RequestMethod.GET, path = "/member")
     public ResponseEntity<Iterable<User>> getAll() {
         Iterable<User> all = userService.findAll();
+        log.info("Hello me !!");
         return new ResponseEntity<>(all, HttpStatus.OK);
     }
 

@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="66fc0fbb-552c-4f68-90b1-a9f5fa3a9583" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microemail/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microemail/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microuser/src/test/java/net/rhm/microuser/MicrouserApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microuser/src/test/java/net/rhm/microuser/MicrouserApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/controller/UserController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,13 +47,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microuser/src/test/java/net/rhm/microuser/MicrouserApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="255">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,20 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/config/ResourceServerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="18" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/config/ResourceServerConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="255">
+              <caret line="15" column="80" lean-forward="true" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,6 +90,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microuser/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="69" selection-start-line="69" selection-end-line="77" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -110,18 +120,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/MicroemailApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -170,7 +168,6 @@
         <option value="$PROJECT_DIR$/discovery/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/discovery/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microconfig/src/main/java/net/rhm/microconfig/MicroconfigApplication.java" />
-        <option value="$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/controller/UserController.java" />
         <option value="$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/config/Sender.java" />
         <option value="$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/service/UserService.java" />
@@ -200,6 +197,7 @@
         <option value="$PROJECT_DIR$/microemail/src/main/java/net/rhm/microemail/config/ResourceServerConfig.java" />
         <option value="$PROJECT_DIR$/microemail/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/microuser/src/test/java/net/rhm/microuser/MicrouserApplicationTests.java" />
+        <option value="$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -227,8 +225,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="362" />
-    <option name="y" value="40" />
+    <option name="x" value="532" />
+    <option name="y" value="21" />
     <option name="width" value="1391" />
     <option name="height" value="938" />
   </component>
@@ -299,24 +297,10 @@
               <item name="microevent" type="462c0819:PsiDirectoryNode" />
               <item name="microuser" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="microuser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microevent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microevent" type="462c0819:PsiDirectoryNode" />
-              <item name="microuser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="microuser" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -331,7 +315,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546365391746" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546367998104" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../test-config" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -357,7 +341,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MicroemailApplication">
+  <component name="RunManager" selected="Spring Boot.MicrouserApplication">
     <configuration name="DiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="discovery" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="net.rhm.discovery.DiscoveryApplication" />
@@ -427,7 +411,7 @@
       <workItem from="1545771002225" duration="2600000" />
       <workItem from="1546106170224" duration="2695000" />
       <workItem from="1546158100204" duration="6076000" />
-      <workItem from="1546334542917" duration="6368000" />
+      <workItem from="1546334542917" duration="7650000" />
     </task>
     <task id="LOCAL-00001" summary="done with config server - organizing config files depending on profiles also...">
       <created>1543870950097</created>
@@ -604,14 +588,21 @@
       <option name="project" value="LOCAL" />
       <updated>1546364231417</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Testing next">
+      <created>1546365410383</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1546365410383</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65558000" />
+    <option name="totallyTimeSpent" value="66840000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="362" y="40" width="1391" height="938" extended-state="0" />
+    <frame x="532" y="21" width="1391" height="938" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2593985" />
@@ -678,7 +669,8 @@
     <MESSAGE value="Success restricting access using OAuth2 &amp; Zuul... - adding sensitive headers" />
     <MESSAGE value="Everything working smoothly - sending mail, kafka and OAuth2 access - tested using postman and OAuth2 bearer token." />
     <MESSAGE value="Added resource server config and enabling oauth2 ssl within email micro service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added resource server config and enabling oauth2 ssl within email micro service" />
+    <MESSAGE value="Testing next" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing next" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/discovery/src/main/java/net/rhm/discovery/DiscoveryApplication.java">
@@ -873,25 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microuser/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="69" selection-start-line="69" selection-end-line="77" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="31" column="66" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/MicrouserApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -906,16 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/config/ResourceServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -988,10 +951,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microuser/src/test/java/net/rhm/microuser/MicrouserApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="255">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/config/ResourceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="80" lean-forward="true" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microuser/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="69" selection-start-line="69" selection-end-line="77" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
           </folding>
         </state>
       </provider>
