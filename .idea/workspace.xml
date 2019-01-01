@@ -62,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+            <state relative-caret-position="391">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#788#789#0" expanded="true" />
@@ -315,7 +315,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546367998104" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546368762126" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../test-config" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -411,7 +411,7 @@
       <workItem from="1545771002225" duration="2600000" />
       <workItem from="1546106170224" duration="2695000" />
       <workItem from="1546158100204" duration="6076000" />
-      <workItem from="1546334542917" duration="7650000" />
+      <workItem from="1546334542917" duration="8407000" />
     </task>
     <task id="LOCAL-00001" summary="done with config server - organizing config files depending on profiles also...">
       <created>1543870950097</created>
@@ -595,17 +595,24 @@
       <option name="project" value="LOCAL" />
       <updated>1546365410383</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Logging from controller working with @Sl4j annotation">
+      <created>1546368038720</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1546368038720</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66840000" />
+    <option name="totallyTimeSpent" value="67597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="532" y="21" width="1391" height="938" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2593985" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2593985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -616,7 +623,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38136646" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38136646" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.399757" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -670,7 +677,8 @@
     <MESSAGE value="Everything working smoothly - sending mail, kafka and OAuth2 access - tested using postman and OAuth2 bearer token." />
     <MESSAGE value="Added resource server config and enabling oauth2 ssl within email micro service" />
     <MESSAGE value="Testing next" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing next" />
+    <MESSAGE value="Logging from controller working with @Sl4j annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logging from controller working with @Sl4j annotation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/discovery/src/main/java/net/rhm/discovery/DiscoveryApplication.java">
@@ -978,8 +986,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microuser/src/main/java/net/rhm/microuser/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        <state relative-caret-position="391">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#788#789#0" expanded="true" />
