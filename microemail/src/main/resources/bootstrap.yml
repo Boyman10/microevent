@@ -9,10 +9,10 @@ spring:
         enabled: true
         service-id: microconfig
   mail:
-    host: smtp.gmail.com
+    host: ssl0.ovh.net
     port: 587
-    username: youremail@domain.com
-    password: your_password
+    username: contact@sample.com
+    password: @@@@@@
     properties.mail.smtp:
       auth: true
       starttls.enable: true
